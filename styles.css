@@ -1,7 +1,13 @@
 /* SELECTORS */
+*{
+  box-sizing: border-box;
+}
+
 html{
-  height:100%;
+  height:100vh;
   background: linear-gradient(#FEFBE7, #F9EBC8);
+  background-color: #F9EBC8;
+  background-repeat: no-repeat;
 }
 
 body{
@@ -28,7 +34,7 @@ a{
 .container-item{
   width: 400px;
   height: auto;
-  margin: 20px 0;
+  margin: 20px;
   text-align: center;
   background-image: linear-gradient(#ffd182, #e2b260);
   border-radius: 10%;
