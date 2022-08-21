@@ -5,15 +5,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Odin Recipes</title>
-  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <h1>Odin Recipes</h1>
+  <!-- Logo -->
+  <a href="index.html"><img id="logo" src="./images/logo.png" alt="The Odin Project logo" /></a>
+
+  <!-- Title -->
+  <h1 id="title">Odin Recipes</h1>
+
   <ul>
-    <li><a href="./recipes/ramen.html">Chicken Ramen Soup</a></li>
-    <li><a href="./recipes/misa_soba.html">Ginger Miso Soba Soup</a></li>
-    <li><a href="./recipes/apple_pie.html">Classic Apple Pie</a></li>
+    <!-- Chicken Ramen -->
+    <div class="container-item">
+      <a href="./recipes/ramen.html">
+        <img src="./images/chicken_ramen.jpg" alt="Image of Chicken Ramen Soup" />
+        <li>Chicken Ramen Soup</li>
+      </a>
+    </div>
+
+    <!-- Misa Soba -->
+    <div class="container-item">
+      <a href="./recipes/misa_soba.html">
+        <img src="./images/misa_soba.jpg" alt="Image of Ginger Miso Soba Soup" />
+        <li>Ginger Miso Soba Soup</li>
+      </a>
+    </div>
+
+    <!-- Apple Pie -->
+    <div class="container-item">
+      <a href="./recipes/apple_pie.html">
+        <img src="./images/apple_pie.jpg" alt="Image of Apple Pie" />
+        <li>Classic Apple Pie</li>
+      </a>
+    </div>
   </ul>
 </body>
 
