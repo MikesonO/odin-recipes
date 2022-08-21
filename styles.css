@@ -1,4 +1,70 @@
+/* SELECTORS */
 html{
   height:100%;
   background: linear-gradient(#FEFBE7, #F9EBC8);
 }
+
+body{
+  font-family: 'Aboreto', cursive;
+}
+
+h1{
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-around;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* CLASS SELECTORS */
+
+.container-item{
+  width: 400px;
+  height: auto;
+  margin: 20px 0;
+  text-align: center;
+  background-image: linear-gradient(#ffd182, #e2b260);
+  border-radius: 10%;
+  box-shadow: 0px 0px 15px 2px #000000;
+}
+
+.container-item img{
+  width: 15rem;
+  height: 20rem;
+  margin:20px auto 10px;
+  border-radius: 10%;
+}
+
+.list_text{
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 800;
+  padding: 20px;
+}
+
+.text_shadow{
+  text-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+/* ID SELECTORS */
+
+#logo{
+  display: block;
+  height: auto;
+  width:300px;
+  margin: 20px auto;
+}
+
+#title{
+  font-size: 3.5rem;
+  color: white;
+}
+
+
