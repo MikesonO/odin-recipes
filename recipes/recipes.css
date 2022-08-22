@@ -1,0 +1,19 @@
+/* SELECTORS */
+html{
+  height:100vh;
+  background: linear-gradient(#FEFBE7, #F9EBC8);
+  background-color: #F9EBC8;
+  background-repeat: no-repeat;
+}
+
+/* CLASS SELECTORS */
+
+
+
+/* ID SELECTORS */
+#logo{
+  display: block;
+  height: auto;
+  width:300px;
+  margin: 20px auto;
+}
