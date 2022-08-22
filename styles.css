@@ -22,7 +22,9 @@ ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
 }
 
 a{
@@ -34,7 +36,8 @@ a{
 .container-item{
   width: 400px;
   height: auto;
-  margin: 20px;
+  margin: 25px auto;
+  /* margin: 20px; */
   text-align: center;
   background-image: linear-gradient(#ffd182, #e2b260);
   border-radius: 10%;
@@ -42,9 +45,9 @@ a{
 }
 
 .container-item img{
-  width: 15rem;
+  width: 75%;
   height: 20rem;
-  margin:20px auto 10px;
+  margin: 20px auto 10px;
   border-radius: 10%;
 }
 
