@@ -6,9 +6,18 @@ html{
   background-repeat: no-repeat;
 }
 
+body{
+  font-family: 'Aboreto', cursive;
+  text-shadow: 0px 0px 0.5px #000000;
+}
+
 ul{
   padding: 0;
   margin-left: 10px;
+}
+
+ol li{
+  margin-bottom: 20px;
 }
 
 h1{
@@ -44,7 +53,9 @@ h1{
 
 .item{
   max-width: 400px;
+  line-height: 1.75rem;
 }
+
 .item:last-child{
   max-width: 50vw;
 }
