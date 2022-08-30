@@ -86,3 +86,37 @@ a{
   width:300px;
   margin: 20px auto;
 }
+
+
+@media only screen and (max-width: 1300px){
+  .item-group{
+    margin-right: 30%;
+  }
+
+  .item{
+    max-width: 18.75rem;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .item-group{
+    flex-direction: column;
+    margin-right: 0%;
+  }
+
+  .food-img{
+    position: static;
+  }
+  
+}
+
+@media only screen and (max-width: 470px){
+
+  .food-img{
+    width: 100%;
+  }
+
+  #logo{
+    width: 100%;
+  }
+}
