@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 /* SELECTORS */
 html{
   height:100vh;
@@ -8,8 +12,7 @@ html{
 
 body{
   font-family: 'Aboreto', cursive;
-  text-shadow: 0px 0px 0.5px #000000;
-}
+  text-shadow: 0px 0px 0.5px #000000;}
 
 ul{
   padding: 0;
@@ -52,20 +55,23 @@ a{
 
 .food-img{
   display: block;
-  width: 300px;
+  width: 22rem;
   margin: 0 auto;
   border-radius: 20px;
   box-shadow: 0px 0px 15px 0px #000000;
+  position: relative;
+  bottom: 3rem;
 }
 
 .item-group{
   display: flex;
-  gap: 100px;
+  gap: 75px;
   align-items: center;
+
 }
 
 .item{
-  max-width: 400px;
+  max-width: 25rem;
   line-height: 1.75rem;
 }
 
